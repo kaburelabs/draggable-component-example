@@ -62,7 +62,7 @@
 
   /* move the sidebar toggle up to the top left corner */
   #sidebar.collapsed #sidebar-toggle {
-    top: -2rem;
+    top: -1.3rem;
   }
 
   /* also adjust margin of page content */
