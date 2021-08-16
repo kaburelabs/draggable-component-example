@@ -1,0 +1,124 @@
+/* colors variables settings */
+
+:root {
+    --bgNavbar:#beadad;
+    /* --bgSideBar: antiquewhite; */
+    --bgSideBar:#e1f0ff;
+    /* --bgColor:#332626; */
+    --bgMaster:white;
+    /* --bgColor: #f4f3f3; */
+    --bgColor:#f9e3da;
+      /* --textDefault: #000; */
+    --textDefault: black;
+    --alertMessage: #984444;
+    --btnAnalyticsColor:#D9B300;
+    --btnSandBoxColor:#D9B300;
+
+    --textBtnSidebar:#315b85;
+    --primary: #0B4CFF;
+    --secondary: #FF0B70;
+    --terciary: #00BA5B;
+    --FilterInvertToggle:none;
+    --colorToggleSideBar:rgba(0,0,0,.5);
+    --bgColorToggleSideBar:rgba(0,0,0,.1);
+}
+
+:root[data-theme='dark'] {
+
+    /* --bgNavbar:#332626; */
+    /* side bar colors */
+    --bgSideBar:#004753;
+    --bgMaster: black;
+	--bgColor: #1f1e22;
+    --textDefault: #fff;
+    --alertMessage:#f9e3da;
+    --btnAnalyticsColor:#46ABB0;
+    --sideBarBtn:#46ABB0; 
+    --btnSandBoxColor:#46ABB0;
+    --textBtnSidebar:#004753;
+    --primary: #ACC2FF;
+    --secondary: #FFAFD0;
+    --terciary: #86E1B3;
+    --FilterInvertToggle:invert(1);
+    --colorToggleSideBar:#b5a7a7;
+    --bgColorToggleSideBar: #615c5c;
+}
+ 
+
+.alertMessageColor{
+    color: var(--alertMessage)
+}
+
+
+.bgKing {
+    background: var(--bgMaster);
+}
+
+/* .navbarColor {
+    background:var(--bgNavbar);
+} */
+
+.bgColor {
+    background: var(--bgColor);
+}
+
+#draggable-comp-layout #sidebar {
+    background: var(--bgSideBar);
+}
+
+#draggable-comp-layout .bg-light {
+    background-color: var(--bgNavbar)!important;
+}
+
+/* a class is to change the navlink color */
+a {
+    color: var(--textDefault);
+}
+
+#draggable-comp-layout .react-grid-item>.react-resizable-handle {
+    filter: var(--FilterInvertToggle);
+}
+
+.analyticsBtnColors {
+    background:var(--btnAnalyticsColor);
+    color:var(--textBtnSidebar);
+    max-width: 176px;
+
+}
+
+
+
+#draggable-comp-layout #collapse *:first-child {
+    margin-top: 0rem;
+}
+
+.sandboxBtnColors {
+    background:var(--btnSandBoxColor);
+    color:var(--textBtnSidebar);
+}
+
+#draggable-comp-layout .navbar-toggler-icon {
+    filter: var(--FilterInvertToggle);
+}
+
+.ToggleSideBarItem {
+
+    color: var(--colorToggleSideBar);
+    border-color: var(--bgColorToggleSideBar);
+}
+
+
+.textColor {
+    color: var(--textDefault);
+}
+
+#draggable-comp-layout .btn-secondary:hover {
+    color: var(--textDefault);
+    background-color: var(--btnSandBoxColor);
+    border-color: #3a1414;
+}
+
+
+.dragButton:active i {
+   color:red; 
+}

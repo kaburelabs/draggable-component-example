@@ -1,0 +1,189 @@
+
+/* application specification */
+.logo {
+    width:170px;
+}
+
+.width-100 {
+    width:100%;
+}
+
+.navbar-list {
+    justify-content: flex-start;
+    margin-left:48px;
+}
+
+/* .navbarColor {
+    background:lightgray;
+} */
+
+.row-center {
+    justify-content: center;
+}
+
+.row-flex-end {
+    justify-content:flex-end;
+}
+
+.displayFlex{
+    display:flex;
+}
+
+
+/* ######### */
+/*  Padding  */
+/* ######### */
+.padding8 {
+    padding: 8px;
+}
+
+.padding16 {
+    padding: 16px;
+}
+
+.padding32 {
+    padding: 32px;
+}
+
+.padding40 {
+    padding: 40px; 
+}
+
+.displayPadding {
+    padding: 8px 16px; 
+}
+
+/* top */
+.paddingtop8 {
+    padding-top: 8px;
+}
+
+.paddingtop16 {
+    padding-top: 16px;
+}
+
+.paddingtop32 {
+    padding-top: 32px;
+}
+
+.paddingtop40 {
+    padding-top: 40px; 
+}
+
+
+
+/* ######## */
+/* Margins */
+/* ######## */
+.bottom8 {
+    margin-bottom: 8px;
+}
+
+.bottom16 {
+    margin-bottom: 16px;
+}
+
+.bottom32 {
+    margin-bottom: 32px;
+}
+
+.bottom64 {
+    margin-bottom: 64px; 
+}
+
+/* tops */
+.top8 {
+    margin-top: 8px;
+}
+
+.top16 {
+    margin-top: 16px;
+}
+
+.top32 {
+    margin-top: 32px;
+}
+
+.top64 {
+    margin-top: 64px; 
+}
+
+.margin-auto {
+    margin: 0 auto; 
+}
+
+.nav-link {
+    padding:15px;
+}
+
+.nav-link-active {
+    /* padding:15px; */
+    font-weight: bold;
+}
+
+
+.sidebar-style {
+    padding: 25px;
+    min-width: 225px;
+    max-width: 240px;
+}
+
+
+.DisplayNone {
+    display:none;
+}
+
+.ResponsiveStyle {
+    border: dashed white .5px;
+    min-height:750px;
+    width: 100%;
+}
+
+.pageContentsStyle {
+    max-width: 1240px;
+    height: 100%;
+    margin:0 auto;
+    padding:8px 16px;
+}
+
+.pageContentsFatherStyle {
+    padding-left: 256px;
+    padding-top: 94.63px;
+    width: 100%; 
+    min-height:100vh;}
+
+.analyticsButtons {
+    background:#cbb04d;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.black {
+    color:black;
+}
+
+.red {
+    color:red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#app-myosh-analytics .btn-secondary.focus, .btn-secondary:focus {
+    color: #fff;
+    background-color: #6c7806;
+    border-color: #545b62;
+    box-shadow: 0 0 0 0.2rem rgba(130,138,145,.5);
+}
+
+#app-myosh-analytics .btn-secondary:hover {
+    color: #fff;
+    background-color:#6c7806;
+    border-color: #545b62;
+}
+  
+.SBBtnStyle {
+    text-align: inherit;
+    padding-left: 32px;
+}

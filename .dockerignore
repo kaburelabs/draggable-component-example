@@ -1,0 +1,20 @@
+venv
+*.pyc
+.DS_Store
+.env
+env
+.ipynb_checkpoints
+cache-directory
+*.ipynb
+.venv
+.vscode
+*.csv#
+*.csv.hdf5
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+experiments
+Dockerfile
+docker-compose.yml
+*.zip

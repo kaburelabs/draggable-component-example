@@ -1,0 +1,10 @@
+venv
+.venv
+*.pyc
+__pycache__
+/experiments/
+/cache-directory/
+/file_system_store/
+/dash_test/
+/myosh_utils/
+/json/

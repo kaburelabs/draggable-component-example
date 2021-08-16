@@ -1,0 +1,24 @@
+
+.font-xs {
+    font-size: min(12px, 3vw);
+}
+
+.font-sm {
+    font-size: min(14px, 3.5vw);
+}
+
+.font-md {
+    font-size: min(16px, 4vw);
+}
+
+.font-lg {
+    font-size: min(20px, 5.5vw);
+}
+
+.font-xl {
+    font-size: min(25px, 8vw);
+}
+
+.font-xxl {
+    font-size: min(32px, 9vw);
+}
