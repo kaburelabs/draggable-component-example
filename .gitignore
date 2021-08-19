@@ -8,3 +8,4 @@ __pycache__
 /dash_test/
 /myosh_utils/
 /json/
+.env
