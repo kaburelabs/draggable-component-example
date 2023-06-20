@@ -1,6 +1,6 @@
 import inspect
 from html.parser import HTMLParser
-import dash_html_components as html
+from dash import dcc, html
 
 
 class DashHTMLParser(HTMLParser):

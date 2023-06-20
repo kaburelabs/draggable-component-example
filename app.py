@@ -1,16 +1,14 @@
 from server import app
 
 import dash
+from dash import html, dcc, Input, Output, State, ClientsideFunction, dash_table
 import dash_bootstrap_components as dbc
-import dash_core_components as dcc
-import dash_html_components as html
-from dash.dependencies import Input, Output, State, ClientsideFunction
-import dash_table
+
 import pandas as pd
 
 # Dash Utils 
-from dash_extensions import Download
-from dash_extensions.snippets import send_data_frame
+# from dash_extensions import Download
+# from dash_extensions.snippets import send_data_frame
 
 # Importing content structure & Sidebar
 from components.analytics import AnalyticsLayout

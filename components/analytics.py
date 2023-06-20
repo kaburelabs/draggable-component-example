@@ -1,11 +1,9 @@
 from server import app
 
 import dash
+from dash import html, dcc, Input, Output, State, ClientsideFunction
 import dash_bootstrap_components as dbc
-import dash_core_components as dcc
-import dash_html_components as html
-from dash.dependencies import Input, Output, State, ClientsideFunction
-import plotly_express as px
+import plotly.express as px
 
 from dash.exceptions import PreventUpdate
 
@@ -41,12 +39,12 @@ def display_page(pathname):
         return SandBoxLayout()
 
     else:
-        return dbc.Jumbotron(
+        return html.Div(
             [
                 html.H1("404: Not found", className="text-danger"),
                 html.Hr(),
                 html.P(f"The pathname {pathname} was not recognised..."),
                 html.Div([dcc.Link("Click here to go back to Analytics main page", href="analytics")])
-            ]
+            ], className="bottom32 top32"
         )
 

@@ -1,7 +1,7 @@
 
 import dash
 import dash_bootstrap_components as dbc
-import dash_html_components as html
+from dash import dcc, html
 import dash_trich_components as dtc
 
 theme_toggle = dtc.ThemeToggle()
@@ -55,7 +55,7 @@ sidebar = html.Div(
             [
                 html.Hr(),
                 html.P(
-                    "Dragglable Component Analytics",
+                    "Dragglable Component Example",
                     className="lead bottom16 textColor",
                 ),
             ],

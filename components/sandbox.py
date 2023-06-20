@@ -3,9 +3,7 @@ from server import app
 import dash
 import dash_bootstrap_components as dbc
 import dash_trich_components as dtc
-import dash_core_components as dcc
-import dash_html_components as html
-from dash.dependencies import Input, Output, State, ClientsideFunction, MATCH, ALL, ALLSMALLER
+from dash import dcc, html, Input, Output, State, ClientsideFunction, MATCH, ALL, ALLSMALLER
 from dash.exceptions import PreventUpdate
 
 import pandas as pd
@@ -71,7 +69,7 @@ select = html.Div(dbc.Select(
     className="bottom8"
 ))
 
-widget_title = dbc.FormGroup(
+widget_title = dbc.CardGroup(
     [
         dbc.Label("Widget Title:", html_for="adding-title"),
         dbc.Input(
@@ -82,7 +80,7 @@ widget_title = dbc.FormGroup(
     ]
 )
 
-radioitems = dbc.FormGroup(
+radioitems = dbc.CardGroup(
     [
         dbc.Label("Choose Interval"),
         dbc.RadioItems(
